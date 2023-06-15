@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Dom/Emoji"
+		},
+		{
+			"path": "../../New folder"
+		},
+		{
+			"path": "../../Dom/Profile Statistic"
+		},
+		{
+			"path": "../../Dom/Rotating Img"
+		},
+		{
+			"path": "../../Dom/Countdown"
+		},
+		{
+			"path": "../../Dom/Password Generator"
+		},
+		{
+			"path": "../../Dom/Animated Search Bar"
+		},
+		{
+			"path": "../../Dom/Social Media Select Menu"
+		},
+		{
+			"path": "../../Dom/Dobule LandingPge"
+		},
+		{
+			"path": "../../Dom/To Do List"
+		},
+		{
+			"path": "../../Dom/Step Progress Bar"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My portfolio",
+		"livePreview.defaultPreviewPath": "c:\\Users\\Alphy\\Desktop\\My portfolio\\portfolio2\\port.html"
+	}
+}

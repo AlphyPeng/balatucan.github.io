@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+    </style>
+
+    <!--Home Name Animation-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div class="home__page">
+        <header>
+          <div class="navbar__container">
+            <div class="title__name">
+                <h1><span>Alphy</span>Balatucan</h1>
+            </div>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav>
+                <ul class="navbar__menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#favorite">Favorite</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="home__content">
+            <div class="home__container">
+                <div class="home__info">
+                    <h1>Hello, I'm</h1>
+                    <h2 class="auto-type"></h2>
+                    <p>I love coding of HTML, CSS and Javascript</p>
+                    <p>I want to be a Web Developer.</p>
+                </div>
+                <div class="home__button">
+                    <button>GET IN TOUCH</button>
+                </div>
+                <div class="home__icons">
+                    <ul class="social__media">
+                        <li><a href="#" class="fb_active"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="home__image">
+                <img src="pic.png" alt="myPic">
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="about__container">
+            <div class="about__content">
+                <h1>About Me</h1>
+                <p>My name is Alphy Mendoza Balatucan and my main hobby is playing basketball and sometimes doing exercise. I am a student from Quezon City University and am currently in 3rd Year at the College level I practicing my coding skills in HTML, CSS, and Javascript as my goal in the future. 
+                </p>
+                <p>I was born in Quezon City, became aware of the knowledge of things, and met some friends. For now, I hope my skills will help me in the future to succeed as a person.</p>
+                <div class="btns">
+                    <button class="btn__active">HIRE ME</button>
+                    <button class="btn__1active">DOWNLOAD CV</button>
+                </div>
+            </div>
+
+            <div id="skills-section">
+                <h1>Skills</h1>
+                <div class="container">
+                  <div class="prog">
+                    <p>HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="60">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prog">
+                    <p>CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="40">
+                            <span>40%</span>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="prog">
+                    <p>JS</p>
+                    <div class="progress">
+                        <div class="progress-bar" data-progress="10">
+                            <span>10%</span>
+                        </div>
+                    </div>  
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="slide-container" id="favorite">
+        <div class="slide-content">
+            <div class="services-content">
+                <h1 class="services-slider-heading">What is my Favorite?</h1>
+                <p>Things that I want to do, favorite foods, and pleasurable activity that I do during my leisure.</p>
+            </div>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="food.png" alt="food"><br>
+                        </div>  
+                    </div>
+                    <div class="card-content">
+                        <h3>Food</h3>
+                        <p>My favorite foods are adobo, sisig, and bulalo.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="anime.jfif" alt="anime"><br>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Anime</h3>
+                        <p>My favorite anime is GATE because it is satisfying.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="boxing.png" alt="boxing">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Boxer</h3>
+                        <p>My favorite boxer is Manny Pacquiao and Juan Manuel Marquez.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                           <img src="sports.png" alt="sport">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Sports</h3>
+                        <p>My favorite sports are basketball and football.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="country.png" alt="country">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Countries</h3>
+                        <p>My favorite country mostly European Contries and Japan.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="exercise.png" alt="exercise">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Exercises</h3>
+                        <p>My favorite exercises are jogging and biking which give me relaxation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                           <img src="ongames.png" alt="ongame">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Esports</h3>
+                        <p>My favorite online games are Mobile Legends and COC.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="snacks.png" alt="snacks">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Snacks</h3>
+                        <p>My favorite snacks are chocolate and cookie.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="stuff.webp" alt="exercise">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Stuffs</h3>
+                        <p>My favorite stuffs are cellphone and laptop.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="btm-sliders">
+                <span onclick="btm_slide(1)"></span>
+                <span onclick="btm_slide(2)"></span>   
+                <span onclick="btm_slide(3)"></span>  
+            </div>
+            <i class="fa-solid fa-chevron-right fa" onclick="side_slide(1)"></i>
+            <i class="fa-solid fa-chevron-left fa" onclick="side_slide(-1)"></i>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+   
+    <section class="footer__container" id="contact">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="">How it works</a>
+                    <a href="">Testimonials</a>
+                    <a href="">Careers</a>
+                    <a href="">Investments</a>
+                    <a href="">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="">Contact</a>
+                    <a href="">Support</a>
+                    <a href="">Destinations</a>
+                    <a href="">Sponsorships</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="">Submit Video</a>
+                    <a href="">Ambassador</a>
+                    <a href="">Agency</a>
+                    <a href="">Influencer</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="">Instagram</a>
+                    <a href="">Facebook</a>
+                    <a href="">Youtube</a>
+                    <a href="">Twitter</a>
+                </div>
+            </div>           
+        </div>
+
+        <div class="socima__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="" id="footer__logo">
+                        <i class="fa-solid fa-user">Alphy</i>
+                    </a>
+                </div>
+                <p class="website__rights">&copy; Alphy 2023. All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="" class="social__icon--link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                      <a href="" class="social__icon--link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="social__icon--link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social__icon--link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="social__icon--link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
